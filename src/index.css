@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.TaskItem {
+  width: 80%;
+  word-break: break-all;
+}
+
+.TaskList {
+  
+  width: 40vw;
+  margin: auto;
+  height: 70vh;
+  overflow-y: scroll;
+  align-self: center;
+
+}
+
+.AddTaskForm {
+  margin-top: 20px;
+}
